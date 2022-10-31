@@ -1,0 +1,45 @@
+body {
+  background-color: dodgerblue;
+  font-family: "Poppins", sans-serif;
+}
+
+h1.title {
+  padding-top: 25px;
+  text-align: center;
+  color: #083d55;
+}
+
+div.img {
+  padding-top: 25px;
+  text-align: center;
+}
+
+h2.weather {
+  padding-top: 25px;
+  text-align: center;
+  color: #083d55;
+}
+
+input {
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  height: 30px;
+  width: 250px;
+}
+
+div.input {
+  padding-top: 50px;
+  text-align: center;
+}
+
+button {
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  height: 30px;
+  width: 250px;
+}
+
+div.button {
+  padding-top: 25px;
+  text-align: center;
+}
