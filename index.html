@@ -4,8 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Weather Forecast</title>
-    <link rel="icon" href="./assets/Logo.png" />
+    <title>Weather App</title>
     <link rel="stylesheet" href="./index.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -13,19 +12,26 @@
       href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
       rel="stylesheet"
     />
+    <link rel="icon" href="./assets/Logo.png" />
+    <script type="text/javascript" src="./index.js"></script>
   </head>
   <body>
-    <script src="./index.js" type="text/javascript"></script>
-    <h1 class="title">Weather Forecast</h1>
-    <div class="img">
-      <img src="./assets/Logo 2.png" />
+    <h1 class="title">Weather App</h1>
+    <div class="input-div">
+      <label class="label">Enter your location</label>
+      <br />
+      <input id="location" type="text" />
     </div>
-    <h2 class="weather" id="weather"></h2>
-    <div class="input">
-      <input id="input" placeholder="Enter city name" />
+    <div class="output-div">
+      <h3 id="output" class="output"></h3>
     </div>
-    <div class="button">
+    <div class="button-div">
       <button onclick="showWeather()">Show Weather</button>
+    </div>
+    <div class="info-div">
+      <h4 class="info">
+        GitHub - <a href="https://github.com/iamashuu_">Click Here</a>
+      </h4>
     </div>
   </body>
 </html>

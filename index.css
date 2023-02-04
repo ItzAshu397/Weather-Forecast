@@ -1,45 +1,40 @@
 body {
-  background-color: dodgerblue;
   font-family: "Poppins", sans-serif;
 }
 
 h1.title {
-  padding-top: 25px;
   text-align: center;
-  color: #083d55;
+  padding-top: 25px;
 }
 
-div.img {
-  padding-top: 25px;
+div.input-div {
   text-align: center;
-}
-
-h2.weather {
-  padding-top: 25px;
-  text-align: center;
-  color: #083d55;
+  padding-top: 10px;
 }
 
 input {
   text-align: center;
   font-family: "Poppins", sans-serif;
-  height: 30px;
-  width: 250px;
 }
 
-div.input {
-  padding-top: 50px;
+div.output-div {
   text-align: center;
+  padding-top: 10px;
+}
+
+div.button-div {
+  text-align: center;
+  padding-top: 10px;
 }
 
 button {
   text-align: center;
   font-family: "Poppins", sans-serif;
-  height: 30px;
-  width: 250px;
+  height: 25px;
+  width: 175px;
 }
 
-div.button {
-  padding-top: 25px;
+div.info-div {
   text-align: center;
+  padding-top: 10px;
 }
