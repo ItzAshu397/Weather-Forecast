@@ -7,7 +7,7 @@ function showWeather() {
   } else {
     let url = `https://weather.visualcrossing.com/VisualCrossingWebServices/rest/services/timeline/${encodeURIComponent(
       location
-    )}/today?unitGroup=metric&include=current&key=2WQD3KTT2UGM668DRP3XW2U77&contentType=json`;
+    )}/today?unitGroup=metric&include=current&key=your_api_key&contentType=json`;
 
     fetch(url)
       .then((res) => res.json())
