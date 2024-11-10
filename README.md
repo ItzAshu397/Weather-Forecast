@@ -1,3 +1,3 @@
-# Weather Forecast
+# Weather App
 
-This website provides weather forecast for various cities in the world
+This website provides current weather conditions for various cities in the world.
